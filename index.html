@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Momentum</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,15 +15,22 @@
         <input maxlength="15" required placeholder="What is Your Name?" type="text" />
         <input type="submit" value="Login" />
     </form>
-    <div id="welcome-page" class="hide">
+    <div id="main-page" class="hide">
         <h1 id="welcome-text"></h1>
         <!--웰컴텍스트-->
+        <h2 id="clock">00:00</h2>
+        <div id="quote">
+            <span id="quote-text"></span>
+            <span id="quote-author"></span>
+        </div>
         <form id="logout-form">
             <!--로그아웃 폼-->
             <input type="submit" value="Logout" />
         </form>
     </div>
-    <script src="app.js"></script>
+    <script src="js/welcome.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
 </body>
 
 </html>
