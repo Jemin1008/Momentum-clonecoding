@@ -48,3 +48,17 @@ function setQuote() {
 
 setQuote();
 setInterval(setQuote, 10000);
+
+//function getAdvice() {
+//    fetch("https://api.adviceslip.com/advice")
+//    .then((Response) => (Response).json())
+//    .then((data) => localStorage.setItem("advice", data.slip.advice));
+//}
+
+//function setAdviceText() {
+//    getAdvice();
+//    const adviceText = localStorage.getItem("advice");
+//    quote.innerText = adviceText;
+//}
+//setAdviceText()
+//setInterval(setAdviceText, 5000)
